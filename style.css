@@ -9,9 +9,16 @@ house{
     padding-inline: 50px;
 }
 
-body{
+bod{
     background-image: url(IMAGES/visible\ section.png);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section-container{
+    background-image: url(IMAGES/visible\ section.png);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -108,4 +115,73 @@ header{
 
 /*----------- Hero section end------------ */
 
+/*----------- New arrival section start------------ */
 
+.wrapper{
+    margin-bottom: 50px;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    width: 300px;
+    margin-left: 30px;
+    box-shadow: 0 0 6px #a4a0a0;
+    border-radius: 15px;
+}
+.wrapper .text{
+    background-color: #100E0E;
+    width: 17rem;
+    padding-left: 13px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text p{
+    color: #d3caca;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.text p i{
+    color: rgb(255, 0, 0);
+    padding-left: 9px;
+}
+.text h1{
+    color: #fff;
+}
+.text .rating{
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.text .rating #carts{
+    color: white;
+    padding-left: 110px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+    position: relative;
+    right: 13px;
+}
+.new{
+    padding-left: 26px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.best-sellers .new{
+    padding-left: 26px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+
+/*----------- New arrival section end------------ */
