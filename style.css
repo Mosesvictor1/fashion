@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+house{
+    padding-inline: 50px;
+}
+
+body{
+    background-image: url(IMAGES/visible\ section.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 3px 100px;
+    background-color: #000;
+}
+
+.logo{
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 20px;
+    font-size: 22px;
+}
+nav ul li a i{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+
+/*----------- Hero section start------------ */
+
+header{
+
+    padding-inline: 100px;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    height: 90vh;
+    margin-bottom: 5rem;
+    background-color: rgb(0, 0, 0);
+    background-image: url(IMAGES/hero\ background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header-left p{
+    margin: 1.2rem 0 2.4rem;
+    font-size: 20px;
+    width: 30rem;
+    color: #cec8c8;
+}
+.header-left button{
+    background-color: transparent;
+    height: 50px;
+    border-radius: 15px;
+    
+    border: 1px solid #d5d1d1;
+}
+.header-left button a{
+    font-size: 20px;
+    color: #cec8c8;
+}
+.header-left button:hover{
+    background: rgb(4, 110, 171);
+    transition: 0.5s;
+}
+
+
+.header-right{
+    position: relative;
+    top: 30px;
+}
+
+/*----------- Hero section end------------ */
+
+
