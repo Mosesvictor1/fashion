@@ -133,6 +133,10 @@ header{
     box-shadow: 0 0 6px #a4a0a0;
     border-radius: 15px;
 }
+
+.wrapper .item img{
+    width: 100%;
+}
 .wrapper .text{
     background-color: #100E0E;
     width: 17rem;
@@ -206,19 +210,21 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    background-color: #ece7e7;
+    background-color: #ffffff;
     box-shadow: 0 0 5px #bdbbbb;
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
+    height: 250px;
     align-items: center;
     margin-bottom: 150px;
+    margin-top: 50px;
 }
 
 .costomer .imag1 img{
     position: relative;
-    bottom: 60px;
-    right: 10px;
-    width: 95%;
+    bottom: 110px;
+    right: 20px;
+    width: 150%;
 }
 
 .costomer .text1{
@@ -226,6 +232,13 @@ header{
     flex-direction: column;
     font-size: 20px;
     padding-right: 25px;
+}
+
+.costomer .text1 p{
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 .costomer .nora{
     padding-top: 20px;
