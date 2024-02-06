@@ -229,8 +229,8 @@ header{
     background-color: #ffffff;
     box-shadow: 0 0 5px #bdbbbb;
     border-radius: 10px;
-    width: 80%;
-    height: 300px;
+    width: 70%;
+    height: 250px;
     align-items: center;
     margin-bottom: 150px;
     margin-top: 50px;
@@ -240,7 +240,7 @@ header{
     position: relative;
     bottom: 110px;
     right: 20px;
-    width: 100%;
+    width: 150%;
 }
 
 .costomer .text1{
@@ -256,6 +256,7 @@ header{
     font-weight: 400;
     padding-top: 25px;
     padding-bottom: 20px;
+    padding-left: 55px;
 }
 .costomer .nora{
     padding-top: 20px;
