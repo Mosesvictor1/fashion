@@ -240,7 +240,7 @@ header{
     position: relative;
     bottom: 110px;
     right: 20px;
-    width: 150%;
+    width: 100%;
 }
 
 .costomer .text1{
@@ -256,7 +256,6 @@ header{
     font-weight: 400;
     padding-top: 25px;
     padding-bottom: 20px;
-    padding-left: 55px;
 }
 .costomer .nora{
     padding-top: 20px;
