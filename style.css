@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 house{
     padding-inline: 50px;
 }
 
-bod{
-    padding: 0 !important;
-    margin: 0 !important;
+body{
+    height: 100vh;
 }
 
 #section-container{
@@ -23,8 +22,10 @@ bod{
 
 .navbar{
     display: flex;
+    height: 64px;
     align-items: center;
-    padding: 3px 100px;
+    text-align: center;
+    padding: 40px 100px;
     background-color: #000;
 }
 
@@ -49,7 +50,8 @@ a{
     text-decoration: none;
     color: #fff;
     padding-inline: 20px;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 16px;
 }
 nav ul li a i{
     color: rgb(255, 255, 255);
@@ -83,15 +85,24 @@ header{
     height: 100%;
 }
 
+.header-left h1{
+    font: 64px;
+    font-weight: 600;
+}
 .header-left p{
     margin: 1.2rem 0 2.4rem;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 400;
     width: 30rem;
     color: #cec8c8;
 }
 .header-left button{
     background-color: transparent;
     height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 197px;
+    height: 52px;
     border-radius: 15px;
     
     border: 1px solid #d5d1d1;
@@ -150,7 +161,8 @@ header{
     color: #d3caca;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
 }
 .text p i{
     color: rgb(255, 0, 0);
@@ -158,6 +170,8 @@ header{
 }
 .text h1{
     color: #fff;
+    font-size: 24px;
+    font-weight: 600;
 }
 .text .rating{
     color: yellow;
@@ -176,7 +190,8 @@ header{
 .new{
     padding-left: 26px;
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 700;
 }
 .best-sellers .new{
     padding-left: 26px;
@@ -199,7 +214,8 @@ header{
 .client-textimonies h1{
 
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 700;
     padding-top: 80px;
     padding-bottom: 18px;
 }
@@ -213,8 +229,8 @@ header{
     background-color: #ffffff;
     box-shadow: 0 0 5px #bdbbbb;
     border-radius: 10px;
-    width: 70%;
-    height: 250px;
+    width: 80%;
+    height: 300px;
     align-items: center;
     margin-bottom: 150px;
     margin-top: 50px;
@@ -235,10 +251,12 @@ header{
 }
 
 .costomer .text1 p{
-    line-height: 30px;
-    padding-top: 20px;
+    line-height: 49px;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 25px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 55px;
 }
 .costomer .nora{
     padding-top: 20px;
